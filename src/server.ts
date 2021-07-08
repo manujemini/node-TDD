@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import { DatabaseConnection } from "./db/db";
 const dbConnection = new DatabaseConnection;
 dbConnection.connect();
